@@ -1,0 +1,10 @@
+#student:
+#  name: as
+#  age: 18
+server:
+  port: 9898
+  
+my:
+  id: ${random.uuid}
+  name: zhangsan
+  age: ${random.int(10)}
