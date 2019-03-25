@@ -1,2 +1,13 @@
-# homework
-springdi
+# day04 2019/3/25
+
+# 上午 运行一个简单的springboot项目
+
+#       一些启动类的注解
+
+#		启动类定制
+
+# 下午  热部署
+
+#		springboot 配置文件加载顺序优先级
+
+#		配置开发、测试、生产环境的profile
