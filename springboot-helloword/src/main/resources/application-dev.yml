@@ -1,0 +1,46 @@
+
+management:
+  security:
+    enabled: false #关掉安全认证，可以获得所有的权限
+  port: 8888 #管理端口调整成8888
+#  context-path: /zhd #actuator的访问路径
+
+#配置端点
+#endpoints:
+#  actuator:
+#    enabled: true
+#  shutdown:
+#    enabled: true
+#    
+#info:
+#   app:
+#      name: spring-boot-actuator
+#      version: 1.0.0
+
+#配置安全（添加一个jar），获取时必须要输入账号密码
+#security:
+#  user:
+#    name: zhd 
+#    password: 123
+
+
+
+
+
+#student:
+#  name: as
+#  age: 18
+server:
+  port: 9898
+  
+my:
+  id: ${random.uuid}
+  name: zhangsan
+  age: ${random.int(10)}
+  
+#logging:
+#  level:
+#    com:
+#      zhd: trace
+#  path: /spring/log
+#  file: f:/a.log
