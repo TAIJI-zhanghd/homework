@@ -13,6 +13,25 @@
 #		配置开发、测试、生产环境的profile
 
 
+# 2019/3/23  Springboot
+
+	project: day03, day03_2
+ >内容：
+ 
+   -    Springboot 项目构建
+		
+   -    DI(依赖注入)：通过依赖注入实现了控制反转
+
+   -    工厂模式、容器、实例化
+
+   -    DI注入方式：get set方法注入 、构造器注入
+
+   -    Bean的作用域：默认（Singleton）
+
+   -    Bean的生命周期：1.配置xml  2.实现接口  3.注解
+
+   -    容器的三种配置方式：1.xml配置  2.注解  3.java方式
+
 # 2019/3/22  SpringIoc、DI
 
 	project: day03, day03_2
