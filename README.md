@@ -1,26 +1,39 @@
-# day04 2019/3/25
 
-# 上午 运行一个简单的springboot项目
+# 2019/3/26  Springboot 日志
 
-#       一些启动类的注解
+	      project: springboot-helloword、springboot-sample-log4j2、springboot-sample-logback、springboot-actuator
+	      	       springboot-admin-server、springboot-admin-client1、springboot-admin-client2
+ >内容：
+ 
+   -    SLF4J：定义了统一的日志框架接口，不提供具体的日志实现，真正的日志实现是在运行时决定的
+	
+   -    常见的日志框架：
+   	    Commons Logging
+	    Java Util Logging
+	    Log4J
+	    Log4J2
+	    logback：效率更高，适应于多环境
+	    
+   -    启动类定制： 1.CommandLineRunner  2.ApplicationRunner  3.ApplicationListener
 
-#		启动类定制
+   -    热部署：spring-boot-devtools
 
-# 下午  热部署
+   -    Springboot 配置文件：  配置文件外部的优先级大于内部的优先级
 
-#		springboot 配置文件加载顺序优先级
+   -    lombok插件：省略setget方法，提高编程效率
 
-#		配置开发、测试、生产环境的profile
+   -    profiles：可以实现多场景下的配置切换，方便开发中进行测试和部署生产环境
 
 
-# 2019/3/23  Springboot
+# 2019/3/25  Springboot
 
 	      project: springboot-helloworld,springboot-sample-profile
  >内容：
  
    -    Springboot 项目构建:  1.web方式  2.ide方式
 		
-   -    运行Springboot三种方式： 1.ide运行   2.jar命令 java -jar xxx.jar  3.maven插件 mvn spring-boot:run
+   -    运行Springboot三种方式： 
+   		1.ide运行   2.jar命令 java -jar xxx.jar  3.maven插件 mvn spring-boot:run
 
    -    启动类定制： 1.CommandLineRunner  2.ApplicationRunner  3.ApplicationListener
 
