@@ -90,12 +90,12 @@
    		- 1.get set方法注入 
 		- 2.构造器注入
 
-   -    Bean的作用域：默认（Singleton）
+   -    Bean的作用域：Singleton（默认）、Prototype、request、session等
 
    -    Bean的生命周期：
-   		- 1.配置xml  
-		- 2.实现接口  
-		- 3.注解
+   		- 1.配置xml  init-method,destroy-method
+		- 2.实现接口  InitializingBean、DesposableBean
+		- 3.注解 @PostConstruct @PreDestroy
 
    -    容器的三种配置方式：
    		- 1.xml配置  
