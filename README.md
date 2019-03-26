@@ -15,7 +15,7 @@
 
 # 2019/3/23  Springboot
 
-	project: day03, day03_2
+	      project: springboot-helloworld,springboot-sample-profile
  >内容：
  
    -    Springboot 项目构建:  1.web方式  2.ide方式
@@ -34,7 +34,7 @@
 
 # 2019/3/22  SpringIoc、DI
 
-	      project: springboot-helloworld,springboot-sample-profile
+	      project: day03, day03_2      
  >内容：
  
    -    springioc(控制反转):程序不负责对象的创建与维护，而是由SpringIoc来负责对象的生命周期和对象之间的关系
