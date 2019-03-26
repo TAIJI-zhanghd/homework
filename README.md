@@ -8,11 +8,11 @@
    -    SLF4J：定义了统一的日志框架接口，不提供具体的日志实现，真正的日志实现是在运行时决定的
 	
    -    常见的日志框架：
-   	    Commons Logging
-	    Java Util Logging
-	    Log4J
-	    Log4J2
-	    logback：效率更高，适应于多环境
+   	    - 1.Commons Logging
+	    - 2.Java Util Logging
+	    - 3.Log4J
+	    - 4.Log4J2
+	    - 5.logback：效率更高，适应于多环境
 	    
    -    启动类定制： 1.CommandLineRunner  2.ApplicationRunner  3.ApplicationListener
 
@@ -25,7 +25,7 @@
    -    profiles：可以实现多场景下的配置切换，方便开发中进行测试和部署生产环境
 
 
-# 2019/3/25  Springboot
+# 2019/3/25  Springboot 搭建、profiles配置文件
 
 	      project: springboot-helloworld,springboot-sample-profile
  >内容：
