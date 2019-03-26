@@ -18,19 +18,19 @@
 	project: day03, day03_2
  >内容：
  
-   -    Springboot 项目构建
+   -    Springboot 项目构建:  1.web方式  2.ide方式
 		
-   -    DI(依赖注入)：通过依赖注入实现了控制反转
+   -    运行Springboot三种方式： 1.ide运行   2.jar命令 java -jar xxx.jar  3.maven插件 mvn spring-boot:run
 
-   -    工厂模式、容器、实例化
+   -    启动类定制： 1.CommandLineRunner  2.ApplicationRunner  3.ApplicationListener
 
-   -    DI注入方式：get set方法注入 、构造器注入
+   -    热部署：spring-boot-devtools
 
-   -    Bean的作用域：默认（Singleton）
+   -    Springboot 配置文件：  配置文件外部的优先级大于内部的优先级
 
-   -    Bean的生命周期：1.配置xml  2.实现接口  3.注解
+   -    lombok插件：省略setget方法，提高编程效率
 
-   -    容器的三种配置方式：1.xml配置  2.注解  3.java方式
+   -    profiles：可以实现多场景下的配置切换，方便开发中进行测试和部署生产环境
 
 # 2019/3/22  SpringIoc、DI
 
