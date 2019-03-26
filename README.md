@@ -8,11 +8,11 @@
    -    SLF4J：定义了统一的日志框架接口，不提供具体的日志实现，真正的日志实现是在运行时决定的
 	
    -    常见的日志框架：
-   	    	 - 1.Commons Logging
-	    	 - 2.Java Util Logging
-	    	 - 3.Log4J
-	    	 - 4.Log4J2
-	    	 - 5.logback：效率更高，适应于多环境
+   		- 1.Commons Logging 
+		- 2.Java Util Logging 
+		- 3.Log4J 
+		- 4.Log4J 
+		- 5.logback：效率更高，适应于多环境
 	    
    -    日志格式：
    	 	- 1.时间日期：精确到秒 
