@@ -1,8 +1,0 @@
-student:
-  name: zhd
-  age: 18
-  
-spring:
-  profiles:
-    active:
-     dev
