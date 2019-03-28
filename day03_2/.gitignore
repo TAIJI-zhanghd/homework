@@ -1,5 +1,13 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
+target/
+.settings/
+.apt_generated
+.classpath
+.project
+.factorypath
+.classpath
+.settings
+.springBeans
+.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -8,7 +16,6 @@
 .project
 .settings
 .springBeans
-.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -17,12 +24,10 @@
 *.ipr
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-/build/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### VS Code ###
-.vscode/
