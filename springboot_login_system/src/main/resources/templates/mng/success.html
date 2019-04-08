@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title th:text="#{user.success}">注册成功</title>
+</head>
+<body>
+	<span th:text="#{user.success.wish}"></span>
+	<span th:text="${session.successName}"></span> <span th:text="#{user.success}"></span>
+	<br />
+	<a th:href="@{/mng/login}" th:text="#{user.login.name}"></a><span th:text="#{user.success}"></span>
+	<a th:href="@{/mng/register}" th:text="#{user.register.name}"></a>
+</body>
+</html>

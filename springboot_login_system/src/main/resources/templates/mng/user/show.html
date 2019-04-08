@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title th:text="#{user.show}">用户展示</title>
+</head>
+<body>
+	<table border="1" align="center" >
+			<tr>
+				<th colspan="5" th:text="#{user.show.table}"></th>
+				<th colspan="1" ><span th:text="#{user.show.table.number}"></span><span th:text="${number}"></span></th>
+			</tr>
+			<tr>
+				<th th:text="#{user.name}">用户名</th>
+				<th th:text="#{user.pwd}">密码</th>
+				<th th:text="#{user.age}">年龄</th>
+				<th th:text="#{user.gender}">性别</th>
+				<th th:text="#{user.email}">邮箱</th>
+				<th th:text="#{user.birth}">出生日期</th>
+			</tr>
+				<tr th:each="u : ${uList}">
+				<th th:text="*{u.name}"></th>
+				<th th:text="*{u.pwd}"></th>
+				<th th:text="*{u.age}"></th>
+				<th th:text="*{u.gender == true ? '男' : '女'}"></th>
+				<th th:text="*{u.email}"></th>
+				<th th:text="${#dates.format(u.birth, 'yyyy-MM-dd')}"></th>
+			</tr>
+	</table>
+	<div align="center"><a th:href="@{/mng/login}" th:text="#{user.login.name}">登陆</a><span th:text="#{user.success.continue}"></span><a th:href="@{/mng/register}" th:text="#{user.register.name}" >注册</a></div>
+</body>
+</html>
