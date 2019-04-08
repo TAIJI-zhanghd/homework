@@ -1,6 +1,6 @@
 # 2019/04/08-  spring security 安全框架
 
- -> 作业 [springboot_security_login_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_login_demo)
+ -> 一个登陆的小demo [springboot_security_login_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_login_demo)
  
 # 2019/04/01-2019/04/04  数据访问 ：一对多 多对一 
 
