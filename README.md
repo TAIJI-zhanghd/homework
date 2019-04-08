@@ -2,18 +2,18 @@
 
  > 作业 [springboot_security_login_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_login_demo)
  
- - 功能：登陆、注册、过滤器访问端口权限控制、登录权限控制
+	 - 功能：登陆、注册、过滤器访问端口权限控制、登录权限控制
 # 2019/04/01-2019/04/04  数据访问 ：一对多 多对一 
 
  > 作业 [jpa_many_to_many](https://github.com/TAIJI-zhanghd/homework/tree/master/jpa_many_to_many)
  
- 
+ 	- 功能：顾客对应多个订单、多个订单对应一个顾客、删除顾客相应的订单也会消失、添加顾客和订单、删除顾客和订单
 # 2019/03/27-2019/03/29  springMvc 
 
  > 作业 [springboot_login_system](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_login_system)
 
  	- 功能：登陆、注册、国际化、后台校验、拦截器拦截未登录的用户、拦截器拦截已注册的用户、thymeleaf、显示用户
-# 2019/3/26  Springboot 日志、Actuator、Admin
+# 2019/03/26  Springboot 日志、Actuator、Admin
 
 	      project: springboot-helloword、springboot-sample-log4j2、springboot-sample-logback、springboot-actuator
 	      	       springboot-admin-server、springboot-admin-client1、springboot-admin-client2
@@ -62,7 +62,7 @@
   		- 1. server 
 		- 2. client
 
-# 2019/3/25  Springboot 搭建、profiles配置文件
+# 2019/03/25  Springboot 搭建、profiles配置文件
 
 	      project: springboot-helloworld,springboot-sample-profile
  >内容：
@@ -89,7 +89,7 @@
 
    -    profiles：可以实现多场景下的配置切换，方便开发中进行测试和部署生产环境
 
-# 2019/3/22  SpringIoc、DI
+# 2019/03/22  SpringIoc、DI
 
 	      project: day03, day03_2      
  >内容：
