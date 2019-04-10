@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>登陆界面</title>
+</head>
+<body>
+	<form th:action="@{/login}" method="post">
+		<div th:if="${param.logout != null}">        
+			<p>
+				You have been logged out.
+			</p >
+		</div>
+		<p>
+			<label for="username">Username</label> <input type="text"
+				id="username" name="username" />
+		</p>
+		<span th:if="${param.error != null}">         
+			Invalid username and password.
+		</span>
+		<p>
+			<label for="password">Password</label> <input type="password"
+				id="password" name="password" />
+		</p>
+		
+		<input type="hidden"
+		name="${_csrf.parameterName}"
+			value="${_csrf.token}" />
+		<button type="submit" class="btn">Log in</button>
+	</form>
+</body>
+</html>
