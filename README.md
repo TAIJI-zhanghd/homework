@@ -4,9 +4,17 @@
 	 - 功能：登陆、注册、过滤器访问端口权限控制、登录权限控制 	
  > day03 [springboot_security_hello](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_hello)
  
-  > 作业 [springboot_security_jdbc_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_jdbc_demo)
+ 	- 功能：登陆 注销 权限控制
  
-	 - 功能：实现AuthenticationProvider接口的方法，实现自定义配置
+ > 作业 [springboot_security_jdbc_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_jdbc_demo)
+ 
+	- 功能：实现AuthenticationProvider接口的方法，实现自定义配置
+	 	
+		新增自定义过滤器，加入过滤器链中
+		 
+		基于access的SPEL表达式的鉴权
+		 
+		权限登陆配置
  
 # 2019/04/01-2019/04/04  数据访问 ：一对多 多对一 
 
