@@ -1,12 +1,12 @@
 # 2019/04/08-2019/04/12  spring security 安全框架
- > 作业 [springboot_security_login_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_login_demo)
+ > day01 [springboot_security_login_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_login_demo)
  
 	 - 功能：登陆、注册、过滤器访问端口权限控制、登录权限控制 	
- > day03 [springboot_security_hello](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_hello)
+ > day02 [springboot_security_hello](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_hello)
  
  	- 功能：登陆 注销 权限控制
  
- > 作业 [springboot_security_jdbc_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_jdbc_demo)
+ > day03 [springboot_security_jdbc_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_jdbc_demo)
  
 	- 功能：实现AuthenticationProvider接口的方法，实现自定义配置
 	 	
