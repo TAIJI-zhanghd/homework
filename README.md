@@ -15,7 +15,14 @@
 		基于access的SPEL表达式的鉴权
 		 
 		权限登陆配置
+  > day04 [springboot_security_RBAC](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_RBAC)
  
+ 	- 功能：基本RBAC的实现
+	
+  > day05 [springboot_security_oauth2](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_oauth2)
+ 
+ 	- 功能：github授权认证
+	
 # 2019/04/01-2019/04/04  数据访问 ：一对多 多对一 
 
  > 作业 [jpa_many_to_many](https://github.com/TAIJI-zhanghd/homework/tree/master/jpa_many_to_many)
