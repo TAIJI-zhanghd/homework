@@ -1,5 +1,5 @@
 # 2019/04/15-2019/04/17  jdk1.8 Redis Mongodb
- > day01 [springboot_redis_mongodb_homework](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_redis_mongodb_homework)
+ > 作业 [springboot_redis_mongodb_homework](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_redis_mongodb_homework)
  
 # 2019/04/08-2019/04/12  spring security 安全框架
  > day01 [springboot_security_login_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_login_demo)
