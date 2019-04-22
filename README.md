@@ -7,7 +7,7 @@
 	 - 功能：登陆、注册、过滤器访问端口权限控制、登录权限控制 	
  > day02 [springboot_security_hello](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_hello)
  
- 	-功能：登陆 注销 权限控制
+ 	- 功能：登陆 注销 权限控制
  
  > day03 [springboot_security_jdbc_demo](https://github.com/TAIJI-zhanghd/homework/tree/master/springboot_security_jdbc_demo)
  
